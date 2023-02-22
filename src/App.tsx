@@ -2,12 +2,13 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { SymbolToggle } from "./components/SymbolToggle";
+import image1 from "./assets/wall 1.png"
 
 const symbols = [
   {
     left: 30,
     top: 320,
-    src: "/src/assets/wall 1.png"
+    src: image1
   },
   {
     left: 32,
